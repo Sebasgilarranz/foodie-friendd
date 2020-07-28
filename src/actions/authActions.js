@@ -10,7 +10,7 @@ import {
 // Register User
 
 
-const serverUrl = "";
+const serverUrl = "https://foodie-friendd-backend.herokuapp.com";
 export const registerUser = (userData, history) => dispatch => {
   axios
     .post(serverUrl + "/api/auth/register1/", userData)
