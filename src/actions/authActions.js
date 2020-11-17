@@ -9,8 +9,8 @@ import {
 } from "./types";
 // Register User
 
-
 const serverUrl = "https://foodie-friendd-backend.herokuapp.com";
+// const serverUrl = "http://localhost:5000"; // BAKCEND HOST
 export const registerUser = (userData, history) => dispatch => {
   axios
     .post(serverUrl + "/api/auth/register1/", userData)

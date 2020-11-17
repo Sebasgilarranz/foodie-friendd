@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const serverUrl = "https://foodie-friendd-backend.herokuapp.com";
+// const serverUrl = "http://localhost:5000"; // BAKCEND HOST
 async function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
